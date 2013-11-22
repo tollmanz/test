@@ -6,7 +6,7 @@ module.exports = {
 		},
 		my_target: {
 			files: {
-				'blah.js': ['blah.min.js']
+				'blah.min.js': ['blah.js']
 			}
 		}
 	}

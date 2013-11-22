@@ -1,5 +1,13 @@
 module.exports = {
-	sass: {
-		sassThing: 'whatever'
+	uglify: {
+		options: {
+			banner: '/*! <%= pkg.version %> */\n',
+			report: 'min'
+		},
+		my_target: {
+			files: {
+				'blah.js': ['blah.min.js']
+			}
+		}
 	}
 };
